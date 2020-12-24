@@ -2,13 +2,9 @@
 # out the current state.
 
 def display_board
-  cell = "   "
-  separator = "|"
-  lines = "-----------"
-
-  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
-  puts "#{lines}"
-  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
-  puts "#{lines}"
-  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
-end
+   puts row = ["   " "|" "   " "|" "   "]
+   puts separator = "-----------"
+   puts row
+   puts separator
+   puts row
+ end
